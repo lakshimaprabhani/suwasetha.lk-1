@@ -22,7 +22,7 @@ const routes: Routes = [
     component: IndexComponent
   },
   {
-    path:'clinics',
+    path:'clinic',
     component: ClinicComponent
   },
   {
