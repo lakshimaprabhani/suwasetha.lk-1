@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { IndexComponent } from './index/index.component';
-import { InternshipsComponent } from './internships/internships.component';
 import { HospitalComponent } from './Hospital/Hospital.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
@@ -12,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { DoctorsComponent } from './doctors/doctors.component';
 import { AppointmentsComponent } from './appointments/appointments.component';
 import { BookappointmentComponent } from './bookappointment/bookappointment.component';
+import { ClinicComponent } from './clinic/clinic.component';
 
 
 
@@ -22,8 +22,8 @@ const routes: Routes = [
     component: IndexComponent
   },
   {
-    path:'internships',
-    component: InternshipsComponent
+    path:'clinics',
+    component: ClinicComponent
   },
   {
     path:'Hospital',

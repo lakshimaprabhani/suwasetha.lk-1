@@ -21,8 +21,7 @@ import { FeatureComponent } from './feature/feature.component';
 import { HowWorksComponent } from './how-works/how-works.component';
 import { TestimonalsComponent } from './testimonals/testimonals.component';
 import { CounterComponent } from './counter/counter.component';
-import { InternshipsComponent } from './internships/internships.component';
-import { InternshipsSearchComponent } from './internships-search/internships-search.component';
+import { ClinicComponent } from './clinic/clinic.component';
 import { Nav2Component } from './nav2/nav2.component';
 import { HospitalComponent } from './Hospital/Hospital.component';
 import { BlogComponent } from './blog/blog.component';
@@ -57,8 +56,7 @@ var config= {
     HowWorksComponent,
     TestimonalsComponent,
     CounterComponent,
-    InternshipsComponent,
-    InternshipsSearchComponent,
+    ClinicComponent,
     Nav2Component,
     HospitalComponent,
     BlogComponent,
